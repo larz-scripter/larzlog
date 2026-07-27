@@ -1,37 +1,20 @@
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
 [project]
 name = "larzlog"
 version = "0.1.0"
-description = "Structured logging that redacts secrets and PII automatically. Context binding, JSON + console output. Pure Python, zero dependencies."
+description = "Structured logging - readable text or JSON logs, level-filtered, with context, zero dependencies"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [{ name = "larz-scripter" }]
-keywords = ["logging", "structured-logging", "json-logging", "redaction", "pii", "secrets", "security", "observability", "zero-dependency", "pure-python"]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Topic :: System :: Logging",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-]
+keywords = ["logging", "structured-logging", "observability", "production", "learn-to-code", "building-blocks", "json", "zero-dependency", "pure-python"]
+classifiers = ["Development Status :: 4 - Beta","Intended Audience :: Developers","License :: OSI Approved :: MIT License","Programming Language :: Python :: 3","Programming Language :: Python :: 3.8","Programming Language :: Python :: 3.9","Programming Language :: Python :: 3.10","Programming Language :: Python :: 3.11","Programming Language :: Python :: 3.12","Programming Language :: Python :: 3.13","Topic :: Software Development :: Libraries :: Python Modules"]
 dependencies = []
-
 [project.urls]
 Homepage = "https://github.com/larz-scripter/larzlog"
 Repository = "https://github.com/larz-scripter/larzlog"
-Documentation = "https://github.com/larz-scripter/larzlog#readme"
 Issues = "https://github.com/larz-scripter/larzlog/issues"
-
 [tool.setuptools]
 packages = ["larzlog"]
